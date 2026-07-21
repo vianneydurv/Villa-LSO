@@ -468,7 +468,11 @@ nav.main-nav a.active{
     height:auto;
   }
   .mosaic-cell{ height:260px; }
-  .mosaic-cell.contain img{ object-fit:cover; }
+  .mosaic-cell.contain{
+    height:auto;
+    aspect-ratio:784 / 1278;
+    background:var(--cream);
+  }
 }
 
 /* ---------- Gallery ---------- */
