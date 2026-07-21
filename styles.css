@@ -143,7 +143,7 @@ nav.main-nav a.active{
   list-style:none;
   position:absolute;
   top:32px; right:-10px; left:auto;
-  min-width:236px;
+  min-width:300px;
   max-width:calc(100vw - 40px);
   background:var(--cream);
   border:none;
