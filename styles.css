@@ -31,8 +31,8 @@ body{
   animation:page-fade-in .6s ease forwards;
 }
 @keyframes page-fade-in{
-  from{ opacity:0; transform:translateY(8px); }
-  to{ opacity:1; transform:translateY(0); }
+  from{ opacity:0; }
+  to{ opacity:1; }
 }
 body.page-fade-out{
   animation:page-fade-out .35s ease forwards;
