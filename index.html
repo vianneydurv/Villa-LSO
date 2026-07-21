@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Villa Laure-Louis — Les Sables-d'Olonne</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">
+    <span class="logo-main">Villa <span>Laure-Louis</span></span>
+    <span class="logo-sub">Les Sables-d'Olonne</span>
+  </a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="histoire.html">La Villa</a></li>
+      <li><a href="sejour.html">Séjour</a></li>
+      <li><a href="cuisine.html">Cuisine</a></li>
+      <li class="has-sub">
+        <a href="#">Chambres</a>
+        <ul class="sub-menu">
+          <li><a href="chambre-principale.html">Chambre principale</a></li>
+          <li><a href="chambre-amis.html">Chambre d'amis</a></li>
+          <li><a href="chambre-enfant.html">Chambre enfant</a></li>
+          <li><a href="salle-de-bain.html">Salle de bain 1er étage</a></li>
+          <li><a href="chambre-souplex.html">Chambre en souplex</a></li>
+        </ul>
+      </li>
+      <li><a href="tarifs.html">Tarifs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<section class="hero hero-bright" style="background-image:url('https://static.wixstatic.com/media/16107b_8bde62048a3d4080af16fa95af65dc50~mv2.jpg/v1/fill/w_1920,h_1200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_8bde62048a3d4080af16fa95af65dc50~mv2.jpg');">
+  <div class="hero-content">
+    <span class="eyebrow">Les Sables-d'Olonne</span>
+    <h1>Villa Laure-Louis</h1>
+    <p class="subtitle">Meublé de Tourisme 4 Étoiles</p>
+    <div class="divider" style="background:var(--gold);"></div>
+    <a href="#welcome" class="btn btn-light">Découvrir la villa</a>
+  </div>
+</section>
+
+<div class="info-bar">
+  <span>4 Chambres</span>
+  <span class="sep">•</span>
+  <span>Capacité : 7 personnes</span>
+  <span class="sep">•</span>
+  <span>3 Salles de bain</span>
+  <span class="sep">•</span>
+  <span>Animaux non acceptés</span>
+</div>
+
+<section class="section" id="welcome" style="padding:64px 6%;">
+  <div class="two-col">
+    <div>
+      <span class="eyebrow">Rubrique à propos</span>
+      <h2>Bienvenue aux Sables !</h2>
+      <p>Chers amis, chers hôtes,</p>
+      <p>Bienvenue aux Sables-d'Olonne, venez découvrir sa grande plage de sable fin exposée plein sud, fleuron de la côte vendéenne bienheureusement nommée « côte de lumière » en raison du fort ensoleillement dont elle bénéficie. En effet selon Météo France on mesure plus de 2 300 heures d'ensoleillement par an aux Sables-d'Olonne, à titre de comparaison, à Biarritz, il est de 1 890 heures et de 1 940 heures à Vannes !</p>
+      <p>La baie des Sables-d'Olonne fait partie des <a href="https://www.lesechos.fr/pme-regions/pays-de-la-loire/les-sables-dolonne-dans-le-club-des-plus-belles-baies-du-monde-1363764" style="border-bottom:1px solid var(--gold);">« Plus Belles Baies du Monde »</a> depuis 2021.</p>
+      <p>Ce site a pour but de vous faire découvrir notre charmante villa que nous vous proposons pour passer vos week-ends ou des vacances en famille, dans un endroit idéal pour s'évader de la vie quotidienne et décompresser le temps de quelques jours.</p>
+      <p>La villa a été classée Meublé de Tourisme 4 étoiles le 04/07/2022 par <a href="https://www.adequat-vendee.fr/" style="border-bottom:1px solid var(--gold);">ADéQUAT Vendée</a>.</p>
+    </div>
+    <div>
+      <img src="https://static.wixstatic.com/media/16107b_a26b17333cc44771b966db7806ab895e~mv2.jpg/v1/fill/w_900,h_1150,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_a26b17333cc44771b966db7806ab895e~mv2.jpg" alt="Villa Laure-Louis">
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section section-alt" style="padding:40px 6%;">
+  <h2 class="text-center">L'emplacement</h2>
+  <hr class="divider">
+  <div style="margin-top:32px;">
+    <iframe class="map-embed" src="https://www.google.com/maps?q=La+Pendule,+Les+Sables-d%27Olonne&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Emplacement — Les Sables-d'Olonne"></iframe>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="slider-section">
+  <div class="slider" data-slider>
+    <div class="slider-viewport">
+      <div class="slider-track">
+        <img src="https://static.wixstatic.com/media/16107b_5be6ff8b3f4d49b293670ca9de60d8a4~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_5be6ff8b3f4d49b293670ca9de60d8a4~mv2.jpg" alt="Entrée">
+        <img src="https://static.wixstatic.com/media/16107b_0ba0e80f079943d5b59e9c29f3868d18~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_0ba0e80f079943d5b59e9c29f3868d18~mv2.jpg" alt="Grille">
+        <img src="https://static.wixstatic.com/media/16107b_dde7a9cc312144c89f941837b9a981d6~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_dde7a9cc312144c89f941837b9a981d6~mv2.jpg" alt="Grille">
+        <img src="https://static.wixstatic.com/media/16107b_8d59c271334e4410bb39b197719de11d~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_8d59c271334e4410bb39b197719de11d~mv2.jpg" alt="Marais salant">
+        <img src="https://static.wixstatic.com/media/16107b_be61941724c34a34a6b6508ec0c1933f~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_be61941724c34a34a6b6508ec0c1933f~mv2.jpg" alt="Marais salant">
+        <img src="https://static.wixstatic.com/media/16107b_fd0986251df849bd8ad63c4e626a0eb4~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_fd0986251df849bd8ad63c4e626a0eb4~mv2.jpg" alt="Grande plage">
+        <img src="https://static.wixstatic.com/media/16107b_5e648a67e47d4a61aaac6bedd905b8f4~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_5e648a67e47d4a61aaac6bedd905b8f4~mv2.jpg" alt="Grande plage">
+        <img src="https://static.wixstatic.com/media/16107b_6bd6583fec864580b0a500e8232ee27e~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_6bd6583fec864580b0a500e8232ee27e~mv2.jpg" alt="Prieuré St Nicolas">
+        <img src="https://static.wixstatic.com/media/16107b_fc7a19c6192f4141955a746c1cbb332d~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_fc7a19c6192f4141955a746c1cbb332d~mv2.jpg" alt="Front de nuit">
+        <img src="https://static.wixstatic.com/media/16107b_869f118b044041be8392bc2a7d62a538~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_869f118b044041be8392bc2a7d62a538~mv2.jpg" alt="Vue du Remblai">
+        <img src="https://static.wixstatic.com/media/16107b_f0de9c0e11314032bbf1d3f2be924d65~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/16107b_f0de9c0e11314032bbf1d3f2be924d65~mv2.jpg" alt="Bar sur le remblai">
+      </div>
+    </div>
+    <button class="slider-arrow prev" aria-label="Photo précédente">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    </button>
+    <button class="slider-arrow next" aria-label="Photo suivante">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </div>
+  <p class="slider-caption-text"></p>
+  <div class="slider-counter"><span class="current">1</span> / <span class="total">11</span></div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section-dark text-center" style="padding:56px 6%;">
+  <span class="eyebrow">Réservation</span>
+  <h2>Grille tarifaire</h2>
+  <p style="max-width:520px;margin:0 auto 30px;color:#d8d3c2;">Consultez nos tarifs de location, linge de maison compris.</p>
+  <a href="tarifs.html" class="btn btn-light">Voir la grille tarifaire</a>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section narrow" id="contact" style="padding:64px 6% 90px;">
+  <span class="eyebrow text-center" style="display:block;text-align:center;">Réservations</span>
+  <h2 class="text-center">Contactez-nous</h2>
+  <hr class="divider">
+  <form class="contact-form" action="mailto:info@monsite.fr" method="post" enctype="text/plain" style="margin-top:40px;">
+    <div class="row">
+      <div>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom">
+      </div>
+      <div>
+        <label for="nom">Nom de famille</label>
+        <input type="text" id="nom" name="nom">
+      </div>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit">Envoyez !</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo">Villa Laure-Louis</span>
+      <p style="color:rgba(231,226,211,.75);font-size:.88rem;max-width:280px;">Meublé de Tourisme 4 étoiles aux Sables-d'Olonne,<br>classé le 04/07/2022 par ADéQUAT Vendée.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="histoire.html">Histoire de la maison</a></li>
+        <li><a href="sejour.html">Séjour</a></li>
+        <li><a href="cuisine.html">Cuisine</a></li>
+        <li><a href="tarifs.html">Grille tarifaire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2035 Villa Laure-Louis</span>
+    <span>Non-fumeur — Animaux non admis</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

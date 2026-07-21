@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grille tarifaire — Villa Laure-Louis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">
+    <span class="logo-main">Villa <span>Laure-Louis</span></span>
+    <span class="logo-sub">Les Sables-d'Olonne</span>
+  </a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="histoire.html">La Villa</a></li>
+      <li><a href="sejour.html">Séjour</a></li>
+      <li><a href="cuisine.html">Cuisine</a></li>
+      <li class="has-sub">
+        <a href="#">Chambres</a>
+        <ul class="sub-menu">
+          <li><a href="chambre-principale.html">Chambre principale</a></li>
+          <li><a href="chambre-amis.html">Chambre d'amis</a></li>
+          <li><a href="chambre-enfant.html">Chambre enfant</a></li>
+          <li><a href="salle-de-bain.html">Salle de bain 1er étage</a></li>
+          <li><a href="chambre-souplex.html">Chambre en souplex</a></li>
+        </ul>
+      </li>
+      <li><a href="tarifs.html" class="active">Tarifs</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<section class="hero hero-small" style="background:linear-gradient(160deg, var(--green-deep), var(--green-mid));">
+  <div class="hero-content">
+    <span class="eyebrow">Réservation</span>
+    <h1>Grille Tarifaire</h1>
+  </div>
+</section>
+
+<section class="section narrow text-center">
+  <p class="lead">Chers hôtes, voici les tarifs de location de notre maison, linge de maison compris :</p>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section" style="padding-top:0;">
+  <div class="pricing-grid">
+    <div class="price-card">
+      <h4>Semaine haute saison</h4>
+      <p class="desc">Grandes vacances.</p>
+      <p class="amount">2 000 €*</p>
+    </div>
+    <div class="price-card">
+      <h4>Semaine moyenne saison</h4>
+      <p class="desc">Vacances scolaires hors grandes vacances.</p>
+      <p class="amount">1 500 €*</p>
+    </div>
+    <div class="price-card">
+      <h4>Semaine basse saison</h4>
+      <p class="desc">Hors vacances scolaires.</p>
+      <p class="amount">1 000 €*</p>
+    </div>
+    <div class="price-card">
+      <h4>Week-end 3 jours</h4>
+      <p class="desc">Basse saison seulement.</p>
+      <p class="amount">500 €</p>
+    </div>
+    <div class="price-card">
+      <h4>Arrhes</h4>
+      <p class="desc">Afin de valider votre réservation.</p>
+      <p class="amount">30 %</p>
+    </div>
+    <div class="price-card">
+      <h4>Dépôt de garantie</h4>
+      <p class="desc">Par chèque, virement bancaire ou Lydia, au minimum 72h avant le check-in.</p>
+      <p class="amount">1 500 €</p>
+    </div>
+  </div>
+
+  <div class="note" style="max-width:800px;margin:0 auto 30px;">
+    <p style="margin:0;">Lors de la réservation, nous vous communiquerons les coordonnées de la personne qui procédera au « check-in » (samedi à partir de 17h) et au « check-out » (samedi suivant avant 11h), ainsi qu'à la fourniture des draps et du linge de toilette (hors serviettes de plage). Le forfait ménage de sortie obligatoire est de 90 €. *Forfait chauffage de 150 € du 15/09 au 30/03.</p>
+  </div>
+
+  <p class="text-center" style="max-width:800px;margin:0 auto;font-style:italic;color:var(--green-mid);">Avertissement : la villa est non-fumeur et les animaux n'y sont pas admis.</p>
+
+  <div style="margin:50px 0;" class="section-divider"></div>
+
+  <div class="text-center">
+    <a href="index.html#contact" class="btn">Nous contacter</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo">Villa Laure-Louis</span>
+      <p style="color:rgba(231,226,211,.75);font-size:.88rem;max-width:280px;">Meublé de Tourisme 4 étoiles aux Sables-d'Olonne,<br>classé le 04/07/2022 par ADéQUAT Vendée.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="histoire.html">Histoire de la maison</a></li>
+        <li><a href="sejour.html">Séjour</a></li>
+        <li><a href="cuisine.html">Cuisine</a></li>
+        <li><a href="tarifs.html">Grille tarifaire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2035 Villa Laure-Louis</span>
+    <span>Non-fumeur — Animaux non admis</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>

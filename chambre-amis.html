@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chambre d'amis — Villa Laure-Louis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">
+    <span class="logo-main">Villa <span>Laure-Louis</span></span>
+    <span class="logo-sub">Les Sables-d'Olonne</span>
+  </a>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="histoire.html">La Villa</a></li>
+      <li><a href="sejour.html">Séjour</a></li>
+      <li><a href="cuisine.html">Cuisine</a></li>
+      <li class="has-sub open">
+        <a href="#">Chambres</a>
+        <ul class="sub-menu">
+          <li><a href="chambre-principale.html">Chambre principale</a></li>
+          <li><a href="chambre-amis.html" class="active">Chambre d'amis</a></li>
+          <li><a href="chambre-enfant.html">Chambre enfant</a></li>
+          <li><a href="salle-de-bain.html">Salle de bain 1er étage</a></li>
+          <li><a href="chambre-souplex.html">Chambre en souplex</a></li>
+        </ul>
+      </li>
+      <li><a href="tarifs.html">Tarifs</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<section class="hero hero-small" style="background-image:url('https://static.wixstatic.com/media/16107b_890f66ebdb2442e1a789be78f38a1365~mv2.jpg/v1/fill/w_1920,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4819.jpg');">
+  <div class="hero-content">
+    <span class="eyebrow">R+1</span>
+    <h1>La Chambre d'Amis</h1>
+  </div>
+</section>
+
+<section class="section narrow text-center">
+  <span class="level-tag">R+1</span>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section" style="padding-top:0;">
+  <div class="room-gallery cols-1">
+    <img src="https://static.wixstatic.com/media/16107b_890f66ebdb2442e1a789be78f38a1365~mv2.jpg/v1/fill/w_1400,h_930,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4819.jpg" alt="La chambre d'amis">
+  </div>
+  <div class="room-gallery cols-2" style="margin-top:22px;">
+    <img src="https://static.wixstatic.com/media/16107b_0e5f51e943d7468b8b61238189fbf0bf~mv2.jpg/v1/crop/x_0,y_1,w_1424,h_958/fill/w_968,h_651,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4816.jpg" alt="La chambre d'amis">
+    <img src="https://static.wixstatic.com/media/16107b_a69ff26cb60241e58fe09e5e14984639~mv2.jpg/v1/crop/x_0,y_3,w_1432,h_957/fill/w_964,h_644,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4815.jpg" alt="La chambre d'amis">
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <span class="footer-logo">Villa Laure-Louis</span>
+      <p style="color:rgba(231,226,211,.75);font-size:.88rem;max-width:280px;">Meublé de Tourisme 4 étoiles aux Sables-d'Olonne,<br>classé le 04/07/2022 par ADéQUAT Vendée.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="histoire.html">Histoire de la maison</a></li>
+        <li><a href="sejour.html">Séjour</a></li>
+        <li><a href="cuisine.html">Cuisine</a></li>
+        <li><a href="tarifs.html">Grille tarifaire</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2035 Villa Laure-Louis</span>
+    <span>Non-fumeur — Animaux non admis</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
